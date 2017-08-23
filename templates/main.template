@@ -67,7 +67,7 @@ Parameters:
     Description: Notification email address for security events (you will receive
       a confirmation email)
     Type: String
-    Default: ami-d27203beistlist@example.org
+    Default: distlist@example.org
   pEC2KeyPairBastion:
     Description: The SSH key pair in your account to use for the bastion host login
     Type: AWS::EC2::KeyPair::KeyName
